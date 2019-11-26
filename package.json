@@ -1,0 +1,29 @@
+{
+  "name": "lab16",
+  "version": "1.0.0",
+  "description": "### Author: Morgan T Shaw",
+  "main": "index.js",
+  "dependencies": {
+    "eslint": "^6.7.0",
+    "faker": "^4.1.0",
+    "jest": "^24.9.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node index.js",
+    "watch": "nodemon index.js",
+    "lint": "eslint \"**/*.js\"",
+    "test-watch": "jest --watchAll",
+    "test": "jest --verbose --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/morgan-401-advanced-javascript/lab16.git"
+  },
+  "author": "Morgan T Shaw",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/morgan-401-advanced-javascript/lab16/issues"
+  },
+  "homepage": "https://github.com/morgan-401-advanced-javascript/lab16#readme"
+}
